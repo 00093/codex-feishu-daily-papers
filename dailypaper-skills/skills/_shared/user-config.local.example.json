@@ -1,0 +1,35 @@
+{
+  "feishu": {
+    "lark_cli": "powershell -ExecutionPolicy Bypass -File \".tools\\bin\\lark-cli.ps1\"",
+    "wiki_space_id": "my_library_or_space_id",
+    "wenxian_node_token": "optional_wiki_node_token",
+    "push_user_open_id": "optional_user_open_id",
+    "push_chat_id": "optional_chat_id"
+  },
+  "daily_papers": {
+    "keywords": [
+      "embodied ai",
+      "vision-language-action",
+      "vla",
+      "world model",
+      "reinforcement learning",
+      "robot policy",
+      "sim-to-real"
+    ],
+    "negative_keywords": [
+      "medical imaging",
+      "audio generation",
+      "code generation",
+      "financial"
+    ],
+    "domain_boost_keywords": [
+      "robot",
+      "robotics",
+      "manipulation",
+      "navigation",
+      "world action model",
+      "physical robot"
+    ],
+    "min_score": 4
+  }
+}

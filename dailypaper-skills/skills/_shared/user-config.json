@@ -1,0 +1,93 @@
+{
+  "paths": {
+    "local_data_dir": "~/.dailypapers",
+    "zotero_db": "~/Zotero/zotero.sqlite",
+    "zotero_storage": "~/Zotero/storage"
+  },
+  "feishu": {
+    "wiki_space_id": "",
+    "wenxian_node_token": "",
+    "push_user_open_id": "",
+    "push_chat_id": "",
+    "lark_cli": "lark-cli"
+  },
+  "daily_papers": {
+    "keywords": [
+      "world model",
+      "embodied ai",
+      "vision-language-action",
+      "vla",
+      "robot policy",
+      "robot foundation model",
+      "reinforcement learning",
+      "sim-to-real",
+      "real robot"
+    ],
+    "negative_keywords": [
+      "medical imaging",
+      "weather forecast",
+      "climate",
+      "pet restoration",
+      "mri",
+      "ct scan",
+      "pathology",
+      "diagnosis",
+      "protein",
+      "drug discovery",
+      "molecular",
+      "audio generation",
+      "music generation",
+      "speech synthesis",
+      "text-to-speech",
+      "speech recognition",
+      "voice cloning",
+      "coding agent",
+      "code agent",
+      "code generation",
+      "software engineering agent",
+      "gui agent",
+      "computer use",
+      "web agent",
+      "browser agent",
+      "document parsing",
+      "document understanding",
+      "ocr",
+      "rag framework",
+      "retrieval augmented",
+      "retrieval-augmented",
+      "llm memory",
+      "long-term memory for llm",
+      "text-to-sql",
+      "code repair",
+      "code review",
+      "trading",
+      "financial",
+      "image generation",
+      "video generation",
+      "audio generation"
+    ],
+    "domain_boost_keywords": [
+      "robot",
+      "robotics",
+      "manipulation",
+      "grasping",
+      "locomotion",
+      "navigation",
+      "planning",
+      "reinforcement learning",
+      "policy learning",
+      "visuomotor",
+      "action prediction",
+      "world action model",
+      "physical robot"
+    ],
+    "arxiv_categories": ["cs.RO", "cs.AI", "cs.LG", "cs.CV"],
+    "min_score": 4,
+    "top_n": 30
+  },
+  "automation": {
+    "auto_refresh_indexes": false,
+    "git_commit": false,
+    "git_push": false
+  }
+}
